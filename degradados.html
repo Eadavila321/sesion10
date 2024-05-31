@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+    <style>
+        .caja{
+            width: 500px;
+            height: 100px;
+            border: 1px solid black;
+            margin: 10px;
+        }
+        .box{
+            width: 400px;
+            height: 400px;
+            border: 1px solid black;
+            margin: 10px;
+        }
+        .uno{background: linear-gradient( to right, white, red,black);}
+        .dos{background: linear-gradient( to top right ,blue, skyblue);}
+        .tres{background: linear-gradient( 45deg,green, white, black );}
+        .cuatro{background: linear-gradient( to right,red 25%,violet 50%, white 100%);}
+        .cinco{background: repeating-linear-gradient( to left, blue, blue 5px, violet 5px, violet 10px);}
+        .seis{background: radial-gradient(ellipse,blue, white);}
+        .siete{background: radial-gradient(circle, green, white, yellow);}
+        .ocho{background: radial-gradient(circle 300px,red,white,green);}
+        .nueve{background: radial-gradient(circle 190px,red 25%,white 50%,yellow 100%);}
+        .diez{background: radial-gradient(circle 200px  at top left, blue 25%, skyblue 75%, white 100% );}
+        .once{background: repeating-radial-gradient(blue 10%, yellow 30%);}
+
+    </style>
+</head>
+<body>
+    <main>
+        <h2>degradados lineales</h2>
+        <div class="caja uno"></div>
+        <div class="caja dos"></div>
+        <div class="caja tres"></div>
+        <div class="caja cuatro"></div>
+        <div class="caja cinco"></div>
+        <h2>degradados raddiales</h2>
+        <div class="box seis"></div>
+        <div class="box siete"></div>
+        <div class="box ocho"></div>
+        <div class="box nueve"></div>
+        <div class="box diez"></div>
+        <div class="box once"></div>
+    </main>
+</body>
+</html>
